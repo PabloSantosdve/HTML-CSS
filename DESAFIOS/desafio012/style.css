@@ -49,14 +49,29 @@ section{
 	font-family: var(--fonte2);
 	font-size: 4.5vw;
 }
+section > p {
+	padding-bottom: 1em;
+}
 section.imagem{
-	background-color: rgb(49, 49, 49);
+	background-color: rgb(0, 0, 0);
 	color: white;
+	box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+	background-attachment: fixed;
 }
 section.imagem > p{
    display: inline-block;
    padding: 5px;
-   background-color: rgba(0, 0, 0, 0.253);
+   background-color: rgba(0, 0, 0, 0.589);
+  
+}
+section#img1{
+   background-image: url(../desafio012/imagens/background001.jpg);
+   background-position: center center;
+   background-size: cover; 
+}
+section#img2{
+   background-image: url(imagens/background002.jpg);
+   background-size: cover;
 }
 section.normal{
 	background-color: white;

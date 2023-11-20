@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+
+}
+a:{
+	opacity:0.7;
+}
+.logo{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}

@@ -22,11 +22,20 @@
 			border: 1px solid black;
 			padding: 8px;
 		}
+		.nome, .idade{
+			background-color: gray;
+		}
 	</style>
 </head>
 <body>
 	<h1>Exercicio de Tabelas</h1>
 	<table>
+		<colgroup>
+			<col class="nome">
+			<col class="sexo">
+			<col class="idade" span="2">
+			<col class="prof">
+		</colgroup>
 		<caption>Cadastro</caption>
 	<tr>
       <th>Nome</th>
@@ -39,6 +48,24 @@
 		<td>F</td>
 		<td>25</td>
 		<td>Jornalista</td>
+	</tr>
+	<tr>
+		<td>Pablo</td>
+		<td>M</td>
+		<td>20</td>
+		<td>Jogador</td>
+	</tr>
+	<tr>
+		<td>Felipe</td>
+		<td>M</td>
+		<td>48</td>
+		<td>Repositor</td>
+	</tr>
+	<tr>
+		<td>Celia</td>
+		<td>F</td>
+		<td>20</td>
+		<td>Enfermeira</td>
 	</tr>
 	</table>
 </body>

@@ -1,0 +1,340 @@
+*{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: rgb(0, 0, 0);
+	height: 900px;
+}
+
+header{
+	background-color: rgb(0, 0, 0);
+
+	width: 100%;
+	height: 70px;
+
+	display: flex;
+	flex-direction: row;
+
+	
+}
+
+#hamburguer{
+	width: 3%;
+	height: 30px;
+	position: relative;
+	float: left;
+	margin: 15px;
+
+}
+
+#hamburguer img{
+	width: 100%;
+	height: 100%;
+}
+
+#logo{
+	width: 10%;
+	height: 30px;
+	position: relative;
+	float: left;
+	margin: 15px 120px 15px 15px ;
+}
+
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+
+#pesquisa{
+	width: 40%;
+	height: 35px;
+	margin-top: 12px;
+
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border: 0.2px solid rgb(80, 80, 80);
+
+	position: relative;
+	float: left;
+
+	background-color: black;
+	color: white;
+}
+
+button{
+	position: relative;
+	float: left;
+	margin-top: 12px;
+	height: 39px;
+
+	background-color: rgb(58, 58, 58);
+	color: white;
+	border: 0.2px solid rgb(80, 80, 80);
+	padding-right: 20px;
+
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+button:hover{
+	background-color: rgb(0, 0, 0);
+	transition: all 0.2s;
+}
+
+#microfone{
+	width: 25px;
+	height: 25px;
+
+	position: relative;
+	float: left;
+
+	margin-top: 20px;
+	margin-left: 15px;
+}
+#microfone img {
+	width: 100%;
+	height: 100%;
+}
+
+#direita{
+	width: 12%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+#direita div{
+	margin-right: 50px;
+}
+
+#esquerda{
+
+	height: 600px;
+	width: 6%;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+
+	float: left;
+	position: relative;
+
+}
+#menu_lateral{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	height: 60px;
+	
+}
+
+#menu_lateral a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+section{
+	position: relative;
+	float: left;
+	background-color: rgb(2, 2, 2);
+	width: 92%;
+	height: 900px;
+}
+#superior{
+	background-color: rgb(0, 0, 0);
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#superior a{
+	padding-top: 5px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	width: 10%;
+	height: 25px;
+	margin: 10px;
+	
+	text-decoration: none;
+	background-color: rgb(87, 87, 87);
+	font-size: 16px;
+}
+
+#superior a:hover{
+	background-color: white;
+	color: black;
+	transition: all 0.2s;
+}
+
+.video{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 100px;
+
+}
+
+#canal{
+	width: 32px;
+	height: 32px;
+}
+
+#canal img{
+	width: 100%;
+	height: 100%;
+}
+
+.video h3{
+	display: block;
+	color: rgb(255, 255, 255);
+	font-size: 13pt;
+	margin-left: 35px;
+	margin-top: -30px;
+}
+.video p{
+	display: block;
+	color: gray;
+	font-weight: 200;
+	margin-left: 38px;
+	font-size: 16px;
+}
+.videos{
+	width: 30%;
+	height: 200px;
+	border-radius: 15px;
+
+}
+.videos img{
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.videos:hover{
+	box-shadow: 1px 1px 30px white;
+	transition: all 0.5s;
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 601px){
+    @media only screen and (max-width: 900px){
+		#esquerda, #superior,#quebra, #hamburguer{
+			display: none;
+		}
+		header{
+			height: 80px;
+			width: 100%;
+		}
+		#logo{
+			margin-right: 20px;
+			width: 130px;
+			height: 30px;
+			
+		}
+		#direita{
+			width: 8%;
+			margin-left: 80px;
+
+		}
+		#direita div{
+			margin-right: 20px;
+		}
+		#pesquisa{
+			width: 18%;
+			margin-left: 20px;
+		
+		}
+		#superior{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		#superior a{
+			padding-top: 5px;
+			border-radius: 10px;
+			color: white;
+			text-align: center;
+			width: 15%;
+			height: 25px;
+			margin: 30px;
+			
+			text-decoration: none;
+			background-color: rgb(87, 87, 87);
+			font-size: 16px;
+		}
+		button{
+			margin-right: -10px;
+		}
+		.video{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			
+			height: 1024px;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.videos{
+			width: 80%;
+			height: 250px;
+			margin: auto;
+		}
+	}
+}
+@media only screen and (min-width:481px){
+    @media only screen and (max-width: 600px){
+		#esquerda, #superior, #hamburguer{
+			display: none;
+		}
+		header{
+			height: 80px;
+			width: 100%;
+		}
+
+		#logo{
+			margin-right: 20px;
+			width: 100px;
+			height: 30px;
+			
+		}
+		#direita{
+			width: 5%;
+			margin-left: 40px;
+
+		}
+		#direita div{
+			margin-right: 20px;
+		}
+		#pesquisa{
+			width: 10%;
+			margin-left: 20px;
+		
+		}
+		button{
+			margin-right: -10px;
+		}
+		.video{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			
+			height: 1024px;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.videos{
+			width: 90%;
+			height: 200px;
+			margin: auto;
+		}
+	}
+}

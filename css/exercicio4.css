@@ -1,0 +1,83 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}	
+header{
+	background-color: darkgoldenrod;
+	color: black;
+	text-align: center;
+	width: 90%;
+	height: 80px;
+	margin: auto;
+}
+main{
+	position: relative;
+	background-color: rgb(71, 124, 106);
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+#esquerda{
+	position: relative;
+	background-color: aquamarine;
+	width: 29%;
+	height: 450px;
+	float: left;
+	padding: 0px 0.5% 0px 0.5%;
+}
+#esquerda2{
+	position: relative;
+	background-color: white;
+	color: black;
+	height: 35%;
+}
+aside{
+	background-color: white;
+	margin-top: 50px;
+	height: 35%;
+}
+#direita{
+	position: relative;
+	background-color: rgb(119, 189, 255);
+	width: 70%;
+	height: 450px;
+	float: left;
+}
+article{	
+	background-color: rgb(0, 255, 13);
+	height: 90%;
+	text-align: center;
+	margin: auto;
+	font-size: 16px;
+}
+#titulo{
+	position: relative;
+	font-size: 16pt;
+	background-color: rgb(255, 230, 0);
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+}
+p{
+	position: relative;
+	background-color: red;
+	color: black;
+	margin: auto;
+	margin-top: 20px;
+	width: 90%;
+	height: 23%;
+}
+#imagem{
+	position: relative;
+	background-color: red;
+	width: 90%;
+	height: 40%;
+	margin: auto;
+	margin-top: 60px;
+}
+footer{
+	background-color: rgb(173, 102, 240);
+	position: relative;
+	clear: left;
+	height: 80px;
+	width: 100%;
+}

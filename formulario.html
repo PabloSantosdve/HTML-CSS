@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<style>
+		form{
+			width: 60%;
+			height: auto;
+			background-color: rgb(255, 127, 127);
+			border: 5px double gray;
+			padding: 10px;
+			margin: auto;
+		}
+		legend{
+			color: white;
+			text-align: center;
+			font-size: 40pt;
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<legend>
+				Cadastro
+			</legend>
+			<label>Entre com o seu nome:</label>
+			<input type="text" name="" size="50" maxlength="50">
+			<br /> <br />
+			<label>Entre com o seu e-mail:</label>
+			<input type="text" name="" size="30" maxlength="50">
+			<br /> <br />
+			<label>Entre com o sua senha:</label>
+			<input type="password" name="senha" size="8" maxlength="50">
+			
+			<br /> <br />
+
+			<label>Você utiliza nosso site frequentemente:</label>
+
+			<input type="radio" name="resp" value="sim">Sim
+			<input type="radio" name="resp" value="nao">Não
+			
+			<br /> <br />
+
+			<label> Qual Browser você costuma utilizar:</label>
+			<input type="checkbox" name="opcao" id="fire">Firefox
+			<input type="checkbox" name="opcao2" id="chro">Chrome
+			<input type="checkbox" name="opcao3" id="IE">Internet Explorer
+			<input type="checkbox" name="opcao4" id="Safari"> Safari
+			<input type="checkbox" name="opcao5" id="Opera"> Opera
+
+			<br /> <br />
+
+			<label> Selecione uma area de atuação</label>
+			<select name="opcao">
+				<option>Marketing</option>
+				<option>Comercial</option>
+				<option>Vendas</option>
+				<option>WEB</option>
+				<option>Administracao</option>
+			</select>
+
+			<br /> <br />
+
+			<label>Digite seu CPF:</label>
+			<input type="text" required placeholder="Digite aqui...">
+
+			<br /> <br />
+
+			<label>Entre com um numero:</label>
+			<input type="number" min="10" max="20">
+			
+			<br /> <br />
+
+			<label>Selecione um data:</label>
+			<input type="date">
+			
+			<br /> <br />
+
+			<input type="search" url="#">
+			
+			<br /> <br />
+
+			<label>Escolha a sua cor:</label>
+			<input type="color">
+
+			<br /><br />
+
+			<progress value="30" max="100">30%</progress>
+
+			<br /><br />
+
+			<meter min="0" max="100" low="30" high="90" optimum="100" value="90"></meter>
+
+			<br /><br />
+
+			<label>Deixe aqui o seu comentario</label>
+			<br />
+			<textarea placeholder="Comente aqui:" cols="30" rows="10" style="resize: none;"></textarea>
+
+			<br /><br />
+
+			<input type="submit" value="Enviar">
+
+			
+		</fieldset>
+	</form>
+</body>
+</html>

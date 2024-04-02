@@ -1,0 +1,17 @@
+#caixa{
+	position: relative;
+	margin: auto;
+	background-color: bisque;
+	width: 80%;
+	height: 700px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#caixa div{
+	background-color: rgb(250, 6, 26);
+	width: 20%;
+	height: 150px;
+	border: 5px solid black;
+}
